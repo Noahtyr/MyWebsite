@@ -1,0 +1,108 @@
+
+/* These is the CSS for the PHP Document Index.php */
+
+#hello{
+    font: 30px "Arial Black";
+    text-align: center;
+}
+#info{
+    font: 30px "Candara";
+    text-align: center;
+}
+#note {
+    font: 15px "Candara";
+    text-align: center;
+
+}
+#hope {
+    font: 40px "Candara";
+    text-align: center;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    display: inline;
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-style: inherit;
+    font-size: 22px;
+
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/* This is CSS for the HTML Document About.html */
+ .whoAmI {
+     font-size: 32px;
+     font-style: normal;
+     font-family: "Courier New", Courier, monospace;
+     color: darkblue;
+     text-align: center;
+ }
+
+ #aboutBody {
+     background-color: rgb(102, 204, 255);
+
+ }
+
+#think {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+/* This is CSS for the HTML Document Gaming.html   */
+
+#soul {
+    font-size: 30px;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+#topic1 {
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+    float: left;
+    padding-left: 35px;
+}
+#topic2 {
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+    float: right;
+    padding-right: 35px;
+}
+
+/* These are the bodies of the different Pages */
+
+#FrontPageBody {
+    background: url("https://i.imgur.com/GHrifsV.png") no-repeat fixed left;
+    background-size: 600px , 400px;
+    background-color: rgb(102, 204, 255);
+
+}
+
+#gamingbody {
+
+    background: url("http://s1.1zoom.net/big3/479/431850-Kycb.jpg") no-repeat;
+    background-size: 1366px, 768px;
+}
