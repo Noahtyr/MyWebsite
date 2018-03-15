@@ -1,5 +1,5 @@
 # MyWebsite
-My Website, WIP
+
 
 <h1> Hello & Welcome </h1>
 
