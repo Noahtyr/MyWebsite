@@ -59,6 +59,21 @@ li a:hover {
 
  }
 
+ .Back {
+     border: none;
+     color: darkblue;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 32px;
+     font-family: "Courier New", Courier, monospace;
+     margin: 4px 2px;
+     cursor: pointer;
+     background-color: rgb(102, 204, 255);
+ }
+
+
 #think {
     display: block;
     margin-left: auto;
@@ -66,7 +81,11 @@ li a:hover {
 }
 
 .aboutPara {
-    font-size: 15px;
+    font-size: 22px;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    color: darkblue;
+
 }
 
 

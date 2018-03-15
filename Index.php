@@ -31,9 +31,11 @@ if($link ->connect_error){
 <html>
 <ul id="navbar">
     <li><a href="#home">Home</a></li>
-    <li><a href="HTML/Gaming.html">Gaming</a></li>
+    <li><a href="Gaming.html">Gaming</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="HTML/About.html">About me</a></li>
+    <li><a href="GameDev.html">Game Development</a></li>
+    <li><a href="About.html">About me</a></li>
+
 </ul>
 
 <title>The Cave</title>
@@ -42,6 +44,6 @@ if($link ->connect_error){
 <h1 id="hello"> Hello! Welcome to my Website</h1>
 <p id="info">This is where you will find all information about me! </p>
 <p id="note"><b id="note">Note:</b> This is still a WIP, more stuff will be added soon!   </p>
-<p id="hope"> Hopefully..</p>
+<p id="hope"> Hopefully...</p>
 </body>
 </html>
