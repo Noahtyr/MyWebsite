@@ -3,8 +3,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="Viewport" content="width=device-width, initial-scale-1">
-
     <link href="CSS/GlobalCss.css" rel="stylesheet">
+    <link rel="shortcut icon" href="HTML/resources/favicon.ico"/>
+
 </head>
 </html>
 
@@ -30,11 +31,12 @@ if($link ->connect_error){
 
 <html>
 <ul id="navbar">
-    <li><a href="#home">Home</a></li>
-    <li><a href="Gaming.html">Gaming</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="GameDev.html">Game Development</a></li>
-    <li><a href="About.html">About me</a></li>
+    <li><a class="active" href="Index.php">Home</a></li>
+    <li><a class="inactive" href="Gaming.html">Gaming</a></li>
+    <li><a class="inactive" href="Contact.html">Contact</a></li>
+    <li><a class="inactive" onclick="alert('Oi! Nothing here yet!')">Game Development</a></li>
+    <li><a class="inactive" href="About.html">About me</a></li>
+
 
 </ul>
 
