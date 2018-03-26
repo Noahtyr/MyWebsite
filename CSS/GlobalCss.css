@@ -25,6 +25,10 @@
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: relative;
+    left: 380px;
+    display: inline-block;
+
 }
 li {
     display: inline;
@@ -118,7 +122,7 @@ li a:hover {
 /* These are the bodies of the different Pages */
 
 #FrontPageBody {
-    background: url("https://i.imgur.com/GHrifsV.png") no-repeat fixed left;
+    background: url("https://cdn.discordapp.com/attachments/172800640467075072/427740297854713856/bear_eyes.png") no-repeat fixed left;
     background-size: 600px , 400px;
     background-color: rgb(102, 204, 255);
 
