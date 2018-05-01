@@ -25,14 +25,15 @@
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    position: relative;
-    left: 380px;
-    display: inline-block;
+    position: fixed;
+    top: 0;
+    width: 100%;
 
 }
 li {
     display: inline;
     float: left;
+    border-right: 1px solid #bbbbbb;
 }
 li a {
     display: block;
@@ -131,6 +132,5 @@ li a:hover {
 #gamingbody {
 
     background: url("http://s1.1zoom.net/big3/479/431850-Kycb.jpg") no-repeat;
-    background-size: 1366px, 768px;
 }
 

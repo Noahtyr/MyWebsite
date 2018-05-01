@@ -36,6 +36,7 @@ if($link ->connect_error){
     <li><a class="inactive" href="Contact.html">Contact</a></li>
     <li><a class="inactive" onclick="alert('Oi! Nothing here yet!')">Game Development</a></li>
     <li><a class="inactive" href="About.html">About me</a></li>
+    <li><a class="inactive" href="">Extra stuff</a> </li>
 
 </ul>
 
@@ -47,5 +48,7 @@ if($link ->connect_error){
 <p id="info">This is where you will find all information about me! </p>
 <p id="note"><b id="note">Note:</b> This is still a WIP, more stuff will be added soon!   </p>
 <p id="hope"> Hopefully...</p>
+
+
 </body>
 </html>
