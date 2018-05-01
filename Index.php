@@ -39,14 +39,7 @@ if($link ->connect_error){
     <li><a class="inactive" href="Contact.html">Contact</a></li>
     <li><a class="inactive" onclick="alert('Oi! Nothing here yet!')">Game Development</a></li>
     <li><a class="inactive" href="About.html">About me</a></li>
-    <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
-        <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-        </div>
-    </li>
+
 </ul>
 
 <title>The Cave</title>
@@ -54,6 +47,8 @@ if($link ->connect_error){
 <body id="frontPageBody">
 
 <h1 id="hello"> Hello! Welcome to my Website</h1>
+
+
 <p id="info">This is where you will find all information about me! </p>
 <p id="note"><b id="note">Note:</b> This is still a WIP, more stuff will be added soon!   </p>
 <p id="hope"> Hopefully...</p>
