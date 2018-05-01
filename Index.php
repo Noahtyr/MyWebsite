@@ -36,8 +36,14 @@ if($link ->connect_error){
     <li><a class="inactive" href="Contact.html">Contact</a></li>
     <li><a class="inactive" onclick="alert('Oi! Nothing here yet!')">Game Development</a></li>
     <li><a class="inactive" href="About.html">About me</a></li>
-    <li><a class="inactive" href="">Extra stuff</a> </li>
-
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+        <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </li>
 </ul>
 
 <title>The Cave</title>
